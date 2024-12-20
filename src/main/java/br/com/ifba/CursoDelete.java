@@ -9,10 +9,7 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
 
-/**
- *
- * @author Glauber
- */
+
 public class CursoDelete {
      private final static EntityManagerFactory entityManagerFactory = 
                 Persistence.createEntityManagerFactory("gerenciamento_curso");
