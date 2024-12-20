@@ -1,7 +1,12 @@
 br\com\ifba\curso\view\CursoListar$2.class
-br\com\ifba\curso\view\CursoListar$4.class
 br\com\ifba\curso\view\CursoListar.class
+br\com\ifba\CursoUpdate.class
 br\com\ifba\curso\view\CursoListar$1.class
-br\com\ifba\CursoSave.class
+br\com\ifba\CursoDelete.class
 br\com\ifba\curso\entity\Curso.class
 br\com\ifba\curso\view\CursoListar$3.class
+br\com\ifba\CursoFind.class
+br\com\ifba\curso\view\CursoListar$5.class
+br\com\ifba\curso\view\CursoListar$4.class
+br\com\ifba\CursoSave.class
+br\com\ifba\JPQL.class
