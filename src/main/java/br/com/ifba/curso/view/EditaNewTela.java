@@ -4,7 +4,7 @@
  */
 package br.com.ifba.curso.view;
 
-import br.com.ifba.dao.CursoDao;
+import br.com.ifba.curso.controller.CursoController;
 import br.com.ifba.entity.Curso;
 import java.util.List;
 import javax.swing.JOptionPane;
@@ -93,7 +93,7 @@ public class EditaNewTela extends javax.swing.JFrame {
             long idCurso = (long) tblEditar.getValueAt(linhaSelecionada, 0);
         
 
-            CursoDao cursoDao = new CursoDao();
+            CursoController cursoDao = new CursoController();
             Curso curso = cursoDao.findById(idCurso);
         
 
@@ -109,7 +109,7 @@ public class EditaNewTela extends javax.swing.JFrame {
     }//GEN-LAST:event_btnEditarActionPerformed
     
     private void mostrarTabela () {
-        CursoDao cursoDao = new CursoDao();
+        CursoController cursoDao = new CursoController();
         List<Curso> cursos = cursoDao.findAll();
    
         DefaultTableModel tableModel = (DefaultTableModel) tblEditar.getModel();

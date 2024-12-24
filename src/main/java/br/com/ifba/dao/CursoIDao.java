@@ -4,14 +4,13 @@
  */
 package br.com.ifba.dao;
 
+// Importa a entidade Curso, que será utilizada no método declarado na interface.
 import br.com.ifba.entity.Curso;
 
-/**
- *
- * @author Erio
- */
+// Define a interface CursoIDao, que especifica o contrato para operações de acesso a dados relacionadas à entidade Curso.
 public interface CursoIDao {
     
-    public abstract Curso findByCodCurso (String codigoCurso);
-    
+    // Declaração de um método abstrato para buscar um curso pelo código do curso.
+    public abstract Curso findByCodCurso(String codigoCurso);
 }
+

@@ -4,8 +4,7 @@
  */
 package br.com.ifba.curso.view;
 
-import br.com.ifba.dao.CursoDao;
-import br.com.ifba.dao.CursoIDao;
+import br.com.ifba.curso.controller.CursoController;
 import br.com.ifba.entity.Curso;
 
 /**
@@ -84,7 +83,7 @@ public class AddNewTela extends javax.swing.JFrame {
         curso.setNome(txtNome.getText());
         curso.setCodigoCurso(txtCod.getText());
         
-        CursoDao cursoDao = new CursoDao();
+        CursoController cursoDao = new CursoController();
         cursoDao.save(curso);
     }//GEN-LAST:event_btnAdicionarActionPerformed
 
